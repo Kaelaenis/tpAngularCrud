@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FindAllComponent } from './pages/find-all/find-all.component';
+import { FindAllv2Component } from './pages/find-allv2/find-allv2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FindAllComponent
+    FindAllComponent,
+    FindAllv2Component
   ],
   imports: [
     BrowserModule,
