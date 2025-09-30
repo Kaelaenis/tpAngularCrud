@@ -1,5 +1,5 @@
 export class Article {
-    reference: string;
+    ref: number;
     marque: string;
     prix: number;
 }
