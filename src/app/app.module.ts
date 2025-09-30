@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FindAllComponent } from './pages/find-all/find-all.component';
 import { FindAllv2Component } from './pages/find-allv2/find-allv2.component';
+import { TestfindComponent } from './pages/testfind/testfind.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FindAllComponent,
     FindAllv2Component,
+    TestfindComponent,
   ],
   imports: [
     BrowserModule,
