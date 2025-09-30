@@ -1,0 +1,33 @@
+<p>find-by-ref works!</p>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ title }}</h1>
+            <p>Paramètre reçu :</p>
+            <ul>
+                <li>Référence : {{ ref }}</li>
+            </ul>
+        </div>
+
+        <div class="col-12" *ngIf="article">
+            <h2>Détails de l'article</h2>
+            <table class="table table-striped table-hover">
+                <thead class="thead-dark">
+                    <tr class="table-primary">
+                        <th>Référence</th>
+                        <th>Marque</th>
+                        <th>Prix</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr class="table-secondary">
+                        <td>{{ article.ref }}</td>
+                        <td>{{ article.marque }}</td>
+                        <td>{{ article.prix | currency:'EUR' }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
