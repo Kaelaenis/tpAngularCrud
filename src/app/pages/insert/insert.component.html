@@ -1,0 +1,15 @@
+<p>insert works!</p>
+
+<div>
+    <div class="row">
+        <div class="col-12">
+            <h1>{{ title }}</h1>
+            <p>Nouvel article à insérer :</p>
+            <ul>
+                <li>Référence : {{ article.ref }}</li>
+                <li>Marque : {{ article.marque }}</li>
+                <li>Prix : {{ article.prix | currency:'EUR' }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

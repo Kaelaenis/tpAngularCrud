@@ -8,6 +8,7 @@ import { FindAllComponent } from './pages/find-all/find-all.component';
 import { FindAllv2Component } from './pages/find-allv2/find-allv2.component';
 import { TestfindComponent } from './pages/testfind/testfind.component';
 import { FindByRefComponent } from './pages/find-by-ref/find-by-ref.component';
+import { InsertComponent } from './pages/insert/insert.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FindByRefComponent } from './pages/find-by-ref/find-by-ref.component';
     FindAllv2Component,
     TestfindComponent,
     FindByRefComponent,
+    InsertComponent,
   ],
   imports: [
     BrowserModule,
