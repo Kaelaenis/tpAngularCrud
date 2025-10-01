@@ -7,6 +7,7 @@ import { FindByRefComponent } from './pages/find-by-ref/find-by-ref.component';
 import { InsertComponent } from './pages/insert/insert.component';
 import { DeleteComponent } from './pages/delete/delete.component';
 import { UpdateComponent } from './pages/update/update.component';
+import { CreateSrvComponent } from './pages/create-srv/create-srv.component';
 
 const routes: Routes = [
   {path: 'articles', component: FindAllComponent},
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'article/:ref', component: FindByRefComponent},
   {path: 'insert', component: InsertComponent},
   {path: 'delete/:id', component: DeleteComponent},
-  {path: 'update/:id', component: UpdateComponent}
+  {path: 'update/:id', component: UpdateComponent},
+  {path: 'create', component: CreateSrvComponent}
 ];
 
 @NgModule({
