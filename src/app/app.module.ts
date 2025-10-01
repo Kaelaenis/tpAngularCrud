@@ -11,6 +11,7 @@ import { FindByRefComponent } from './pages/find-by-ref/find-by-ref.component';
 import { InsertComponent } from './pages/insert/insert.component';
 import { DeleteComponent } from './pages/delete/delete.component';
 import { UpdateComponent } from './pages/update/update.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { UpdateComponent } from './pages/update/update.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
