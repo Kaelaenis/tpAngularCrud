@@ -12,6 +12,7 @@ import { InsertComponent } from './pages/insert/insert.component';
 import { DeleteComponent } from './pages/delete/delete.component';
 import { UpdateComponent } from './pages/update/update.component';
 import { FormsModule } from '@angular/forms';
+import { CreateSrvComponent } from './pages/create-srv/create-srv.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FormsModule } from '@angular/forms';
     InsertComponent,
     DeleteComponent,
     UpdateComponent,
+    CreateSrvComponent,
   ],
   imports: [
     BrowserModule,

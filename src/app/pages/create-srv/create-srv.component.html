@@ -1,0 +1,23 @@
+<p>create-srv works!</p>
+
+<div class="container">
+    <h2>Create Article</h2>
+    <form (ngSubmit)="onSubmit()" #articleForm="ngForm">
+        <div class="form-group">
+        <label for="ref">Reference:</label>
+        <input type="number" id="ref" class="form-control" required [(ngModel)]="article.ref" name="ref">
+        </div>
+        <div class="form-group">
+        <label for="marque">Marque:</label>
+        <input type="text" id="marque" class="form-control" required [(ngModel)]="article.marque" name="marque">
+        </div>
+        <div class="form-group">
+        <label for="prix">Prix:</label>
+        <input type="number" id="prix" class="form-control" required [(ngModel)]="article.prix" name="prix">
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="!articleForm.form.valid">Create Article</button>
+    </form>
+    <div *ngIf="message" class="alert alert-success mt-3">
+        {{ message }}
+    </div>
+</div>
