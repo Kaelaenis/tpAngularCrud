@@ -10,6 +10,7 @@ import { TestfindComponent } from './pages/testfind/testfind.component';
 import { FindByRefComponent } from './pages/find-by-ref/find-by-ref.component';
 import { InsertComponent } from './pages/insert/insert.component';
 import { DeleteComponent } from './pages/delete/delete.component';
+import { UpdateComponent } from './pages/update/update.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DeleteComponent } from './pages/delete/delete.component';
     FindByRefComponent,
     InsertComponent,
     DeleteComponent,
+    UpdateComponent,
   ],
   imports: [
     BrowserModule,
