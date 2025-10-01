@@ -1,0 +1,20 @@
+<p>find-all-srv works!</p>
+
+<div class="container">
+    <h2>All Articles</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Reference</th>
+                <th>Marque</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let article of articles">
+                <td>{{ article.ref }}</td>
+                <td>{{ article.marque }}</td>
+                <td>{{ article.prix }}</td>
+            </tr>
+        </tbody>
+    </table>

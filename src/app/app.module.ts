@@ -13,6 +13,7 @@ import { DeleteComponent } from './pages/delete/delete.component';
 import { UpdateComponent } from './pages/update/update.component';
 import { FormsModule } from '@angular/forms';
 import { CreateSrvComponent } from './pages/create-srv/create-srv.component';
+import { FindAllSrvComponent } from './pages/find-all-srv/find-all-srv.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CreateSrvComponent } from './pages/create-srv/create-srv.component';
     DeleteComponent,
     UpdateComponent,
     CreateSrvComponent,
+    FindAllSrvComponent,
   ],
   imports: [
     BrowserModule,
